@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-10T00:29:37 PST" name="Default suite" finished-at="2020-12-10T00:30:15 PST" duration-ms="37999">
+    <groups>
+    </groups>
+    <test started-at="2020-12-10T00:29:37 PST" name="Default test" finished-at="2020-12-10T00:30:15 PST" duration-ms="37999">
+      <class name="com.base.test.TestFirst">
+        <test-method signature="firstTest(java.lang.String)[pri:0, instance:com.base.test.TestFirst@5f16132a]" started-at="2020-12-10T00:29:37 PST" name="firstTest" data-provider="Browser" finished-at="2020-12-10T00:29:54 PST" duration-ms="16596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.base.test.TestFirst@5f16132a]" started-at="2020-12-10T00:29:54 PST" name="tearDown" finished-at="2020-12-10T00:29:54 PST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="firstTest(java.lang.String)[pri:0, instance:com.base.test.TestFirst@5f16132a]" started-at="2020-12-10T00:29:54 PST" name="firstTest" data-provider="Browser" finished-at="2020-12-10T00:30:13 PST" duration-ms="18566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.base.test.TestFirst@5f16132a]" started-at="2020-12-10T00:30:13 PST" name="tearDown" finished-at="2020-12-10T00:30:15 PST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.base.test.TestFirst -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
