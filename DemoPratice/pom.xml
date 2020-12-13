@@ -19,26 +19,31 @@
 </dependency>
   
   </dependencies>
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-changelog-plugin</artifactId>
-        <version>2.3</version>
-        <reportSets>
-          <reportSet>
-            <id>dual-report</id>
-            <configuration>
-              <type>range</type>
-              <range>30</range>
-            </configuration>
-            <reports>
-              <report>changelog</report>
-              <report>file-activity</report>
-            </reports>
-          </reportSet>
-        </reportSets>
-      </plugin>
-    </plugins>
-  </reporting>
+  <developers>
+		<developer>
+			<id>amishra9235</id>
+			<name>Anand Mishra</name>
+			<email>hello@goodbye.com</email>
+			<organization>From Beyond</organization>
+			<organizationUrl>N/A</organizationUrl>
+			<roles>
+				<role>lead developer</role>
+			</roles>
+			<timezone>-8</timezone>
+			<url>N/A</url>
+		</developer>
+	</developers>
+  <scm>
+		<connection>scm:git:git@github.com:amishra9235/Assignment1.git</connection>
+		<developerConnection>scm:git:git@github.com:amishra9235/Assignment1.git</developerConnection>
+		<url>https://github.com/amishra9235/Assignment1.git</url>
+	</scm>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</reporting>
 </project>
